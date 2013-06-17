@@ -1,0 +1,97 @@
+@import url('theme.css');
+
+/* ========== Styles for Elements ========== */
+body {
+  margin: 0 auto;
+  background: #E5ECF4 url(/art/img/bg.png) repeat-x;
+  max-width: 1024px;
+}
+
+form .search {
+  width: 93%;
+  font-size: .95em;
+  line-height: 1.2em;
+  border-radius: 3px 3px 3px 3px
+}
+
+nav fieldset[role="search"] {
+  border: 0px;
+  padding: 0.5em 0em;
+}
+
+nav[role="pagination"] div {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') top left repeat-x;
+}
+
+article {
+  padding-top: 1em;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') top left repeat-x;
+}
+
+article header {
+  background: none;
+  padding-bottom: 0;
+  margin-bottom: 1.5em;
+}
+
+time {
+  display: block;
+  font-size: 11px;
+  text-align: right;
+  color: #777;
+}
+
+pre[lang=none] {
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1em;
+  line-height: 1.8em;
+  overflow: auto;
+  position: relative;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  -webkit-box-shadow: 2px 2px 5px #000;
+}
+
+code {
+  display: inline;
+  color: black;
+  box-shadow: 1px 1px 3px #000;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+}
+
+
+/* ========== Styles for Classes ========== */
+.container {
+  margin: 0 auto;
+  border: 1px solid #369;
+  padding: 10px 10px 0px;
+}
+
+.entry-links {
+  margin: 1em 0 3em 0;
+  text-align: right;
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+
+.rss-feed {
+  margin-left: 5px;
+  padding-left: 18px;
+  background: url("/art/img/feed-icon-14x14.png") no-repeat scroll 0 100% transparent;
+}
+
+
+/* ========== Styles for IDs ========== */
+#footer {
+  font-size: 0.8em;
+  padding-top: 0em;
+}
